@@ -3,18 +3,39 @@ body {
 }
 
 p {
-	font-family: Helvetica, Times, Serif;
+	font-family: Helvetica;
 	font-size: 12px
 }
 
 ul {
-	font-family: Helvetica, Times, Serif;
+	font-family: Helvetica;
 	font-size: 12px
 }
 
 h1 {
-	color: red;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: red;
-	margin:bottom 10px;
+	color: blue;
+	margin: bottom 10px;
+}
+
+h2 {
+	color: brown;
+	font-size: 18px;
+	font-family: Ariel;
+	font-style: italic;
+}
+
+#funtext { 
+	color: orange; 
+}
+#funnertext { 
+	color: purple; 
+}
+#funnesttext { 
+	color: yellow; 
+}
+
+/*new max-resize property. Chose this percent resize to make the image smaller and maintain it's aspect ratio.*/
+img.resize {
+  max-width:35%;
+  max-height:35%;
+} 
